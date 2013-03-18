@@ -1,0 +1,78 @@
+html, body, div, ul {
+	margin: 0;
+	padding: 0;
+}
+ body {
+   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	background-color: #fff;
+	background-image: url(../img/examples/stucco.png);
+	color: #191919;
+	margin: 0 0 1px; height: 100%; 
+	line-height: 1.5;
+}
+@font-face {
+   font-family: 'BoycottRegular';
+   src: url('BOYCOTT_-webfont.eot');
+   src: url('BOYCOTT_-webfont.eot?#iefix') format('embedded-opentype'),
+        url('BOYCOTT_-webfont.ttf') format('truetype'),
+        url('BOYCOTT_-webfont.svg#BoycottRegular') format('svg');
+       font-weight: normal;
+       font-style: normal;
+}
+
+h1.fontface {
+   font: 60px/68px 'BoycottRegular', Arial, sans-serif;
+   letter-spacing: 0;
+}
+
+h2.fontface {
+   font: 48px/52px 'BoycottRegular', Arial, sans-serif;
+   letter-spacing: 0;
+}
+
+p.style1 {
+   font: 18px/27px 'BoycottRegular', Arial, sans-serif;
+}
+
+a, p a {
+	text-decoration: none;
+	color: #333;
+}
+
+.formcontainer
+{
+  width: 780px;
+  margin: 1em auto;
+  margin-top: 60px;
+}
+.formcontainer
+{
+  padding: 0 20px 15px;
+  -webkit-border-radius: 0 0 6px 6px;
+  -moz-border-radius: 0 0 6px 6px;
+  border-radius: 0 0 6px 6px;
+  background-color: #eee;
+  background-image: -webkit-gradient(linear, center bottom, center top, from(#ddd), to(#eee));
+  background-image: -moz-linear-gradient(90deg, #ddd, #eee);
+  -webkit-box-shadow: 0 5px 20px #999;
+  -moz-box-shadow: 0 5px 20px #999;
+  box-shadow: 0 5px 20px #999;
+}
+legend  {background:#bfbf30; color:#fff; font:17px/21px Calibri, Arial, Helvetica, sans-serif; padding:0 10px; margin:-26px 0 0 -11px; font-weight:bold; border:1px solid #fff; border-color:#e5e5c3 #505014 #505014 #e5e5c3;
+        margin-top: 5px;
+        margin-bottom: 5px; }
+
+textarea{
+    width:232px;
+    height: 108px;
+    margin-left: 94px;
+    resize:none;
+
+}
+h1{
+ font-size:24px;
+font-weight:bold;
+margin-bottom:8px;
+
+}
